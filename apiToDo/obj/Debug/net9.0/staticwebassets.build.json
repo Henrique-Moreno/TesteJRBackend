@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IYYzPEYSSWK+Ltvtm2JQ+/YTBFf6rZbDW3cmrWQ3eeQ=",
+  "Source": "apiToDo",
+  "BasePath": "_content/apiToDo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

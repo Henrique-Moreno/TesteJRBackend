@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "apiToDo.Controllers.TarefasController",
+    "Method": "AtualizarTarefa",
+    "RelativePath": "Tarefas/AtualizarTarefa",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefaAtualizada",
+        "Type": "apiToDo.DTO.TarefaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiToDo.Controllers.TarefasController",
+    "Method": "DeletarTarefa",
+    "RelativePath": "Tarefas/DeletarTarefa",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID_TAREFA",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiToDo.Controllers.TarefasController",
+    "Method": "GetTarefaPorId",
+    "RelativePath": "Tarefas/GetTarefaPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiToDo.Controllers.TarefasController",
+    "Method": "InserirTarefas",
+    "RelativePath": "Tarefas/InserirTarefas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaTarefa",
+        "Type": "apiToDo.DTO.TarefaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "apiToDo.Controllers.TarefasController",
+    "Method": "lstTarefas",
+    "RelativePath": "Tarefas/lstTarefas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
